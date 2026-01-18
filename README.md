@@ -6,7 +6,7 @@ Pokretanje programa
 
 Igra je implementirana u programskom jeziku Inform 7 kao interaktivna fikcija u kojoj korisnik upravlja likom i komunicira sa svijetom igre pomoću tekstualnih naredbi. Igra je inspirirana svijetom Minecrafta te se temelji na istraživanju prostora, interakciji s likovima, borbi s neprijateljima i rješavanju zadataka.
 
-Postupak pokretanja programa je sljedeći:
+# Postupak pokretanja programa je sljedeći:
 
 Pokreće se razvojno okruženje Inform 7.
 
@@ -37,26 +37,47 @@ Program na svaku naredbu reagira promjenom stanja svijeta i ispisom odgovarajuć
 
 # Naredbe za brz prolazak cijele igre:
 take torch
+
 south
+
 open chest
+
 take iron
+
 south
+
 north
+
 north
+
 take sticks
+
 examine villager
+
 craft sword
+
 south
+
 south
+
 attack zombie
+
 activate portal frame
+
 examine steve
+
 ask steve about portal
+
 west
+
 north
+
 north
+
 ask villager about crystal
+
 south
+
 south
 east
 activate portal frame
