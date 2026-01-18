@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Graphics</key>
+        <dict>
+            <key>11</key>
+            <string>Figures\forest.png</string>
+            <key>12</key>
+            <string>Figures\cave.png</string>
+            <key>13</key>
+            <string>Figures\mine.png</string>
+            <key>14</key>
+            <string>Figures\portal.png</string>
+        </dict>
+        <key>Sounds</key>
+        <dict>
+            <key>3</key>
+            <string>Sounds\zombie1.ogg</string>
+            <key>4</key>
+            <string>Sounds\zombie2.ogg</string>
+            <key>5</key>
+            <string>Sounds\creeper1.ogg</string>
+            <key>6</key>
+            <string>Sounds\creeper2.ogg</string>
+            <key>7</key>
+            <string>Sounds\crystal.ogg</string>
+            <key>8</key>
+            <string>Sounds\portal1.ogg</string>
+            <key>9</key>
+            <string>Sounds\portal2.ogg</string>
+            <key>10</key>
+            <string>Sounds\villager.ogg</string>
+        </dict>
+    </dict>
+</plist>

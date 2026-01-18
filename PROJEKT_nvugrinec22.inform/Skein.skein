@@ -1,0 +1,2131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-1">
+    <command xml:space="preserve">PROJEKT_nvugrinec22</command>
+    <result xml:space="preserve">Budi&#x0161; se na travi. Sve oko tebe izgleda... kockasto. Drve&#x0107;e, tlo, &#x010D;ak i sunce. Jedna misao ti prolazi glavom: Ovo izgleda kao Minecraft.&#x000A;Izgubljeni u svijetu blokova&#x000A;An Interactive Fiction by Nensi Vugrinec&#x000A;Release 1 / Serial number 260118 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks, a torch and a villager here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-5"/>
+      <child nodeId="node-6"/>
+      <child nodeId="node-37"/>
+      <child nodeId="node-50"/>
+      <child nodeId="node-60"/>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">LOOK</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks, a torch and a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mrak je pregust. Ima&#x0161; lo&#x0161; predosje&#x0107;aj i odlu&#x010D;uje&#x0161; se vratiti.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">ask villager about this place</command>
+    <result xml:space="preserve">Villager ka&#x017E;e: Ovo je svijet blokova. Ovdje se ne pre&#x017E;ivljava slu&#x010D;ajno.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">ask villager about portal</command>
+    <result xml:space="preserve">Villager promrmlja: Portal je izlaz... ali treba mu sna&#x017E;an izvor energije. Samo oni koji su dokazali da se mogu braniti dobiju klju&#x010D;.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">examine villager</command>
+    <result xml:space="preserve">Villager te gleda bez imalo iznena&#x0111;enja.&#x000A;&#x000A;Ne&#x0161;to promrmlja sebi u bradu: Kristali&#x2026; rijetki su danas&#x2026; i opasni u krivim rukama.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">ask villager about portal</command>
+    <result xml:space="preserve">Villager promrmlja: Portal je izlaz... ali treba mu sna&#x017E;an izvor energije. Samo oni koji su dokazali da se mogu braniti dobiju klju&#x010D;.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager odmahne glavom: Prvo mora&#x0161; dokazati da se zna&#x0161; braniti.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">ask villager about this place</command>
+    <result xml:space="preserve">Villager ka&#x017E;e: Ovo je svijet blokova. Ovdje se ne pre&#x017E;ivljava slu&#x010D;ajno.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">ask villager about this place</command>
+    <result xml:space="preserve">Villager ka&#x017E;e: Ovo je svijet blokova. Ovdje se ne pre&#x017E;ivljava slu&#x010D;ajno.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager odmahne glavom: Prvo mora&#x0161; dokazati da se zna&#x0161; braniti.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">examine crafting table</command>
+    <result xml:space="preserve">Klasi&#x010D;ni crafting table. Ako &#x017E;eli&#x0161; ne&#x0161;to napraviti, ovo je pravo mjesto.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mrak je pregust. Ima&#x0161; lo&#x0161; predosje&#x0107;aj i odlu&#x010D;uje&#x0161; se vratiti.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">examine creeper</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">ask creeper about this place</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">examine villager</command>
+    <result xml:space="preserve">Villager te gleda bez imalo iznena&#x0111;enja.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">ask villager about this place</command>
+    <result xml:space="preserve">Villager ka&#x017E;e: Ovo je svijet blokova. Ovdje se ne pre&#x017E;ivljava slu&#x010D;ajno.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">examine crafting table</command>
+    <result xml:space="preserve">Klasi&#x010D;ni crafting table. Ako &#x017E;eli&#x0161; ne&#x0161;to napraviti, ovo je pravo mjesto.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager odmahne glavom: Prvo mora&#x0161; dokazati da se zna&#x0161; braniti.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">examine crafting table</command>
+    <result xml:space="preserve">Klasi&#x010D;ni crafting table. Ako &#x017E;eli&#x0161; ne&#x0161;to napraviti, ovo je pravo mjesto.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">examine sign</command>
+    <result xml:space="preserve">Na znaku pi&#x0161;e: "U mraku pre&#x017E;ivljavaju samo oni koji se mogu braniti. Bez ma&#x010D;a, mrak brzo postaje grobnica."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing Two iron ingots.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">take iron ingots</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;Zombie te sustigne i brutalno napadne.&#x000A;&#x000A;Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;Budi&#x0161; se ponovno na travi. Sve izgleda isto kao prije.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing Two iron ingots.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">take iron ingots</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">ask villager about portal</command>
+    <result xml:space="preserve">Villager promrmlja: Portal je izlaz... ali treba mu sna&#x017E;an izvor energije. Samo oni koji su dokazali da se mogu braniti dobiju klju&#x010D;.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">ask villager about zombie</command>
+    <result xml:space="preserve">Villager ka&#x017E;e tiho: Zombie se ne boji golih ruku. Bez pravog oru&#x017E;ja, borba je izgubljena prije nego po&#x010D;ne.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">ask villager about creeper</command>
+    <result xml:space="preserve">Villager odmahne glavom: Creepera ne mo&#x017E;e&#x0161; pobijediti. Ako po&#x010D;ne &#x0161;i&#x0161;tati, jedina pametna stvar je - maknuti se.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">examine villaher</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">ask villager about this place</command>
+    <result xml:space="preserve">Villager ka&#x017E;e: Ovo je svijet blokova. Ovdje se ne pre&#x017E;ivljava slu&#x010D;ajno.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mrak je pregust. Ima&#x0161; lo&#x0161; predosje&#x0107;aj i odlu&#x010D;uje&#x0161; se vratiti.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">examine creeper</command>
+    <result xml:space="preserve">Zeleno stvorenje koje ti ne ulijeva povjerenje.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">examine villaher</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">ask villager about this place</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">examine crafting table</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Treba&#x0161; crafting table za to.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks, a torch and a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">examine villager</command>
+    <result xml:space="preserve">Villager te gleda bez imalo iznena&#x0111;enja.&#x000A;&#x000A;Villager ne&#x0161;to promrmlja sebi u bradu: "Kristali&#x2026; rijetki su danas&#x2026; i opasni u krivim rukama."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">ask villager about this place</command>
+    <result xml:space="preserve">Villager ka&#x017E;e: "Ovo je svijet blokova. Ovdje se ne pre&#x017E;ivljava slu&#x010D;ajno."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mrak je pregust. Ima&#x0161; lo&#x0161; predosje&#x0107;aj i odlu&#x010D;uje&#x0161; se vratiti.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A;Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak.&#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cave&#x000A;Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak.&#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">examine sign</command>
+    <result xml:space="preserve">Na znaku pi&#x0161;e: "U mraku pre&#x017E;ivljavaju samo oni koji se mogu braniti. Bez ma&#x010D;a, mrak brzo postaje grobnica."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">examine creeper</command>
+    <result xml:space="preserve">Zeleno stvorenje koje ti ne ulijeva povjerenje.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">ask creeper about this place</command>
+    <result xml:space="preserve">Creeper po&#x010D;ne &#x0161;i&#x0161;tati...&#x000A;BOOM! Creeper eksplodira.&#x000A;&#x000A;Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;Budi&#x0161; se ponovno na travi. Sve izgleda isto kao prije.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mrak je pregust. Ima&#x0161; lo&#x0161; predosje&#x0107;aj i odlu&#x010D;uje&#x0161; se vratiti.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks, a torch and a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">examine villager</command>
+    <result xml:space="preserve">Villager te gleda bez imalo iznena&#x0111;enja.&#x000A;&#x000A;Ne&#x0161;to promrmlja sebi u bradu: Kristali&#x2026; rijetki su danas&#x2026; i opasni u krivim rukama.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">ask villager about this place</command>
+    <result xml:space="preserve">Villager ka&#x017E;e: Ovo je svijet blokova. Ovdje se ne pre&#x017E;ivljava slu&#x010D;ajno.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager odmahne glavom: Prvo mora&#x0161; dokazati da se zna&#x0161; braniti.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">examine crafting table</command>
+    <result xml:space="preserve">Klasi&#x010D;ni crafting table. Ako &#x017E;eli&#x0161; ne&#x0161;to napraviti, ovo je pravo mjesto.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mrak je pregust. Ima&#x0161; lo&#x0161; predosje&#x0107;aj i odlu&#x010D;uje&#x0161; se vratiti.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">examine creeper</command>
+    <result xml:space="preserve">Zeleno stvorenje koje ti ne ulijeva povjerenje.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">ask creeper about this place</command>
+    <result xml:space="preserve">Creeper po&#x010D;ne &#x0161;i&#x0161;tati...&#x000A;BOOM! Creeper eksplodira.&#x000A;&#x000A;Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;Budi&#x0161; se ponovno na travi. Sve izgleda isto kao prije.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mrak je pregust. Ima&#x0161; lo&#x0161; predosje&#x0107;aj i odlu&#x010D;uje&#x0161; se vratiti.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">examine sign</command>
+    <result xml:space="preserve">Na znaku pi&#x0161;e: "U mraku pre&#x017E;ivljavaju samo oni koji se mogu braniti. Bez ma&#x010D;a, mrak brzo postaje grobnica."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing Two iron ingots.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">take iron ingots</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;Zombie te sustigne i brutalno napadne.&#x000A;&#x000A;Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;Budi&#x0161; se ponovno na travi. Sve izgleda isto kao prije.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">examine villager</command>
+    <result xml:space="preserve">Villager te gleda bez imalo iznena&#x0111;enja.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing Two iron ingots.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">take iron ingots</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Nedostaju ti stickovi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">take sticks</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Uz pomo&#x0107; crafting tablea izra&#x0111;uje&#x0161; &#x017E;eljezni ma&#x010D;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">ask villager about creeper</command>
+    <result xml:space="preserve">Villager odmahne glavom: Creepera ne mo&#x017E;e&#x0161; pobijediti. Ako po&#x010D;ne &#x0161;i&#x0161;tati, jedina pametna stvar je maknuti se.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">ask villager about zombie</command>
+    <result xml:space="preserve">Villager ka&#x017E;e tiho: Zombie se ne boji golih ruku. Bez pravog oru&#x017E;ja, borba je izgubljena prije nego po&#x010D;ne.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">Zamahne&#x0161; ma&#x010D;em i porazi&#x0161; Zombija. Rudnik je sada siguran.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">examine steve</command>
+    <result xml:space="preserve">Izgleda poznato. Kao da je ovdje ve&#x0107; dugo i &#x010D;eka da netko do&#x0111;e.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">ask steve about portal</command>
+    <result xml:space="preserve">Steve ka&#x017E;e: Portal treba izvor energije. Ja ga ne mogu dati... ali netko u &#x0161;umi zna vi&#x0161;e.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">examine portal frame</command>
+    <result xml:space="preserve">Masivni okvir portala. Trenutno je neaktivan.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Vra&#x0107;a&#x0161; se natrag iz prostorije s portalom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">ask villager about portal</command>
+    <result xml:space="preserve">Villager promrmlja: Portal je izlaz... ali treba mu sna&#x017E;an izvor energije. Samo oni koji su dokazali da se mogu braniti dobiju klju&#x010D;.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager ti pru&#x017E;i sjajni kristal. Sada si spremna. Ovo je klju&#x010D; portala.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">examine steve</command>
+    <result xml:space="preserve">Izgleda poznato. Kao da je ovdje ve&#x0107; dugo i &#x010D;eka da netko do&#x0111;e.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Portal se zatitra, ali se ne uspijeva aktivirati.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">ask steve about portal</command>
+    <result xml:space="preserve">Steve se kratko zamisli: Ponekad portali ne reagiraju odmah. Ako si ve&#x0107; poku&#x0161;ala&#x2026; mo&#x017E;da je drugi put klju&#x010D;an.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Steve te pogleda i tiho ka&#x017E;e: Sretno.&#x000A;&#x000A;&#x000A;    *** Portal se aktivira. Svjetlost te obavija. Budi&#x0161; se u svom krevetu... ali na no&#x0107;nom ormari&#x0107;u le&#x017E;i mali, kockasti dijamant. ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing Two iron ingots.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">take iron</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">take sticks</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Uz pomo&#x0107; crafting tablea izra&#x0111;uje&#x0161; &#x017E;eljezni ma&#x010D;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">Zamahne&#x0161; ma&#x010D;em i porazi&#x0161; Zombija. Rudnik je sada siguran.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager ti pru&#x017E;i sjajni kristal. Sada si spreman/na. Ovo je klju&#x010D; portala.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Vra&#x0107;a&#x0161; se natrag iz prostorije s portalom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Portal se zatitra, ali se ne uspijeva aktivirati.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">ask steve about portal</command>
+    <result xml:space="preserve">Steve se kratko zamisli: Ponekad portali ne reagiraju odmah. Ako si ve&#x0107; poku&#x0161;ao/la&#x2026; mo&#x017E;da je drugi put klju&#x010D;an.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Steve te pogleda i tiho ka&#x017E;e: Sretno.&#x000A;&#x000A;&#x000A;    *** Portal se aktivira. Svjetlost te obavija. Budi&#x0161; se u svom krevetu... ali na no&#x0107;nom ormari&#x0107;u le&#x017E;i mali, kockasti kristal. ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">take iron ingots</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">ask villager about creeper</command>
+    <result xml:space="preserve">Villager odmahne glavom: Creepera ne mo&#x017E;e&#x0161; pobijediti. Ako po&#x010D;ne &#x0161;i&#x0161;tati, jedina pametna stvar je maknuti se.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">ask villager about zombie</command>
+    <result xml:space="preserve">Villager ka&#x017E;e tiho: Zombie se ne boji golih ruku. Bez pravog oru&#x017E;ja, borba je izgubljena prije nego po&#x010D;ne.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Nedostaju ti stickovi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">take sticks</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Uz pomo&#x0107; crafting tablea izra&#x0111;uje&#x0161; &#x017E;eljezni ma&#x010D;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">Zamahne&#x0161; ma&#x010D;em i porazi&#x0161; Zombija. Rudnik je sada siguran.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">examine steve</command>
+    <result xml:space="preserve">Izgleda poznato. Kao da je ovdje ve&#x0107; dugo i &#x010D;eka da netko do&#x0111;e.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">examine portal frame</command>
+    <result xml:space="preserve">Masivni okvir portala. Trenutno je neaktivan.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">ask steve about portal</command>
+    <result xml:space="preserve">Steve ka&#x017E;e: Portal treba izvor energije. Ja ga ne mogu dati... ali netko u &#x0161;umi zna vi&#x0161;e.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Vra&#x0107;a&#x0161; se natrag iz prostorije s portalom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">ask villager about portal</command>
+    <result xml:space="preserve">Villager promrmlja: Portal je izlaz... ali treba mu sna&#x017E;an izvor energije. Samo oni koji su dokazali da se mogu braniti dobiju klju&#x010D;.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager ti pru&#x017E;i sjajni kristal. Sada si spreman/na. Ovo je klju&#x010D; portala.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Portal se zatitra, ali se ne uspijeva aktivirati.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">ask steve about portal frame</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">ask steve about portal</command>
+    <result xml:space="preserve">Steve se kratko zamisli: Ponekad portali ne reagiraju odmah. Ako si ve&#x0107; poku&#x0161;ao/la&#x2026; mo&#x017E;da je drugi put klju&#x010D;an.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Steve te pogleda i tiho ka&#x017E;e: Sretno.&#x000A;&#x000A;&#x000A;    *** Portal se aktivira. Svjetlost te obavija. Budi&#x0161; se u svom krevetu... ali na no&#x0107;nom ormari&#x0107;u le&#x017E;i mali, kockasti dijamant. ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">take torch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+      <child nodeId="node-202"/>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing Two iron ingots.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">take iron ingots</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Nedostaju ti stickovi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">take sticks</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">open chest </command>
+    <result xml:space="preserve">You open the chest, revealing Two iron ingots.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">take iron</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Nedostaju ti stickovi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">take sticks</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Uz pomo&#x0107; crafting tablea izra&#x0111;uje&#x0161; &#x017E;eljezni ma&#x010D;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">Zamahne&#x0161; ma&#x010D;em i porazi&#x0161; Zombija. Rudnik je sada siguran.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager ti pru&#x017E;i sjajni kristal. Sada si spreman/na. Ovo je klju&#x010D; portala.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Vra&#x0107;a&#x0161; se natrag iz prostorije s portalom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Portal se zatitra, ali se ne uspijeva aktivirati.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">ask steve about portal frame</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombia kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">examine zombie</command>
+    <result xml:space="preserve">Trulo &#x010D;udovi&#x0161;te koje te odmah primijeti.&#x000A;&#x000A;Zombie te sustigne i brutalno napadne.&#x000A;&#x000A;Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see some sticks and a villager here.&#x000A;&#x000A;Budi&#x0161; se ponovno na travi. Sve izgleda isto kao prije.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">take sticks</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (closed) and a creeper here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing Two iron ingots.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">take iron</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Uz pomo&#x0107; crafting tablea izra&#x0111;uje&#x0161; &#x017E;eljezni ma&#x010D;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">ask villager about portal</command>
+    <result xml:space="preserve">Villager promrmlja: "Portal je izlaz... ali treba mu sna&#x017E;an izvor energije. Samo oni koji su dokazali da se mogu braniti dobiju klju&#x010D;."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">Zamahne&#x0161; ma&#x010D;em i porazi&#x0161; zombija. Rudnik je sada siguran.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">ask steve about portal</command>
+    <result xml:space="preserve">Steve ka&#x017E;e: "Portal treba izvor energije. Ja ga ne mogu dati... ali netko u &#x0161;umi zna vi&#x0161;e."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Vra&#x0107;a&#x0161; se natrag iz prostorije s portalom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager ti pru&#x017E;i sjajni kristal. "Sada si spremna. Ovo je klju&#x010D; portala."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">ask steve about portal</command>
+    <result xml:space="preserve">Steve klimne glavom. "Vidim da ima&#x0161; kristal. Sad zna&#x0161; &#x0161;to treba u&#x010D;initi."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">acitvate portal frame</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">activate portal</command>
+    <result xml:space="preserve">(the portal crystal)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Portal se zatitra, ali se ne uspijeva aktivirati.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">ask steve about portal</command>
+    <result xml:space="preserve">Steve se kratko zamisli: "Ponekad portali ne reagiraju odmah. Ako si ve&#x0107; poku&#x0161;ala&#x2026; mo&#x017E;da je drugi put klju&#x010D;an."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Steve te pogleda i tiho ka&#x017E;e: "Sretno."&#x000A;&#x000A;&#x000A;&#x000A;    *** Portal se aktivira. Svjetlost te obavija. Budi&#x0161; se u svom krevetu... ali na no&#x0107;nom ormari&#x0107;u le&#x017E;i mali, kockasti dijamant. ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; Zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">Zamahne&#x0161; ma&#x010D;em i porazi&#x0161; Zombija. Rudnik je sada siguran.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bje&#x017E;i&#x0161; iz rudnika prije nego te zombie uspije susti&#x0107;i.&#x000A;&#x000A;Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">ask villager about portal crystal</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">ask villager about crystal</command>
+    <result xml:space="preserve">Villager ti pru&#x017E;i sjajni kristal. Sada si spreman/na. Ovo je klju&#x010D; portala.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">wrst</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Vra&#x0107;a&#x0161; se natrag iz prostorije s portalom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">activate portal frame</command>
+    <result xml:space="preserve">Portal se zatitra, ali se ne uspijeva aktivirati.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">take iron ingots</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Forest&#x000A;Nalazi&#x0161; se u &#x0161;umi punoj kockastog drve&#x0107;a. Sve izgleda neprirodno savr&#x0161;eno. Na tlu vidi&#x0161; crafting table.&#x000A;&#x000A;You can see a villager here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">craft sword</command>
+    <result xml:space="preserve">Uz pomo&#x0107; crafting tablea izra&#x0111;uje&#x0161; &#x017E;eljezni ma&#x010D;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Cave&#x000A; Pe&#x0107;ina je i dalje mra&#x010D;na, ali baklja osvjetljava zidove prekrivene rudama. Na zidu primje&#x0107;uje&#x0161; stari znak. &#x000A;&#x000A;You can see a chest (empty) and a creeper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Mine&#x000A;Duboko si u rudniku. Tuneli su uski i mra&#x010D;ni. Ima&#x0161; lo&#x0161; predosje&#x0107;aj.&#x000A;&#x000A;You can see a zombie here.&#x000A;&#x000A;&#x000A;&#x000A;&#x010C;im u&#x0111;e&#x0161; u rudnik, primje&#x0107;uje&#x0161; zombija kako se okre&#x0107;e prema tebi i polako krene u tvom smjeru.&#x000A;&#x000A;Zombie je sve bli&#x017E;e. Mora&#x0161; brzo reagirati!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">Zamahne&#x0161; ma&#x010D;em i porazi&#x0161; zombija. Rudnik je sada siguran.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Portal Chamber&#x000A;Prostorija je pravilno oblikovana, kao da nije prirodna. U sredini stoji neaktivan portal frame.&#x000A;&#x000A;You can see a steve here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">ask villager about portal</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">ask steve about portal</command>
+    <result xml:space="preserve">Steve ka&#x017E;e: "Portal treba izvor energije. Ja ga ne mogu dati... ali netko u &#x0161;umi zna vi&#x0161;e."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
