@@ -79,7 +79,11 @@ ask villager about crystal
 south
 
 south
+
 east
+
 activate portal frame
+
 ask steve about portal
+
 activate portal frame
